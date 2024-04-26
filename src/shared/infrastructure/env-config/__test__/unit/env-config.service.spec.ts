@@ -15,7 +15,6 @@ describe('EnvConfigService Unit Tests', () => {
         sut = module.get<EnvConfigService>(EnvConfigService)
     })
 
-
     it('Should be defined', () => {
         expect(sut).toBeDefined()
     })
